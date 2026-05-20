@@ -556,25 +556,89 @@ footer {
 }
 
 @media (max-width: 768px) {
-    .menu-toggle {
-        display: block;
+    body {
+        overflow-x: hidden;
+    }
+
+    .container {
+        padding: 0 15px;
+    }
+
+    .hero {
+        height: auto;
+        padding: 120px 20px 80px;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+        line-height: 1.2;
+    }
+
+    .tagline {
+        font-size: 1rem;
+    }
+
+    .about h2,
+    .importance h2,
+    .analysts h2,
+    .careers h2,
+    .showcase h2 {
+        font-size: 2rem;
+        line-height: 1.2;
+    }
+
+    .definition-grid,
+    .importance-grid,
+    .analyst-profiles,
+    .career-grid,
+    .showcase-grid,
+    .footer-content {
+        grid-template-columns: 1fr;
+        gap: 1.2rem;
+    }
+
+    .definition-card,
+    .importance-item,
+    .analyst-card,
+    .career-card {
+        padding: 1.2rem;
+    }
+
+    .analyst-image {
+        width: 110px;
+        height: 110px;
+    }
+
+    .showcase-item {
+        height: 220px;
+    }
+
+    .showcase-overlay {
+        transform: translateY(0);
+        padding: 1rem;
+    }
+
+    .showcase-overlay h3 {
+        font-size: 1.2rem;
+    }
+
+    .showcase-overlay p {
+        font-size: 0.9rem;
     }
 
     .nav-links {
         display: none;
         position: absolute;
         top: 80px;
-        right: 20px;
-        background: #111;
-        flex-direction: column;
-        width: 200px;
-        padding: 1rem;
-        border-radius: 10px;
-        border: 1px solid #8b0000;
-        box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+        right: 15px;
+        width: 180px;
     }
 
     .nav-links.show {
         display: flex;
+    }
+
+    .menu-toggle {
+        display: block;
     }
 }
