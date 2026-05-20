@@ -549,4 +549,33 @@ footer {
     border-top: 1px solid #1a0000;
     color: #606060;
 }
+.menu-toggle {
+    display: none;
+    font-size: 2rem;
+    color: #dc143c;
+    cursor: pointer;
+}
 
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+    }
+
+    .nav-links {
+        display: none;
+        position: absolute;
+        top: 80px;
+        right: 20px;
+        background: #111;
+        flex-direction: column;
+        width: 200px;
+        padding: 1rem;
+        border-radius: 10px;
+        border: 1px solid #8b0000;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+    }
+
+    .nav-links.show {
+        display: flex;
+    }
+}
