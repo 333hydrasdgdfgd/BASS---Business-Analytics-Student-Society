@@ -10,7 +10,8 @@ body {
     background-color: #0a0a0a;
     color: #e0e0e0;
     line-height: 1.6;
-    overflow-x: hidden;
+    min-width: 1200px;
+    overflow-x: auto;
 }
 
 .container {
@@ -549,45 +550,3 @@ footer {
     color: #606060;
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-    .hero h1 {
-        font-size: 2.5rem;
-    }
-
-    .tagline {
-        font-size: 1.2rem;
-    }
-
-    .nav-links {
-        gap: 1rem;
-        font-size: 0.9rem;
-    }
-
-    .about h2,
-    .importance h2,
-    .analysts h2,
-    .careers h2,
-    .showcase h2 {
-        font-size: 2rem;
-    }
-
-    .showcase-grid {
-        grid-template-columns: 1fr;
-    }
-}
-
-@media (max-width: 480px) {
-    .hero h1 {
-        font-size: 2rem;
-    }
-
-    .logo {
-        font-size: 1.5rem;
-    }
-
-    .nav-links {
-        flex-direction: column;
-        gap: 0.5rem;
-    }
-}
