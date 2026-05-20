@@ -642,9 +642,17 @@ footer {
     .nav-links {
         display: none;
         position: absolute;
-        top: 80px;
-        right: 15px;
-        width: 180px;
+        top: 70px;
+        right: 10px;
+        background: #111;
+        flex-direction: column;
+        width: 170px;
+        padding: 0.8rem;
+        border-radius: 12px;
+        border: 1px solid #8b0000;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+        gap: 0.8rem;
+        text-align: center;
     }
 
     .nav-links.show {
@@ -653,5 +661,18 @@ footer {
 
     .menu-toggle {
         display: block;
+    }
+    header {
+        padding: 0.7rem 0;
+    }
+
+    .logo-img {
+        width: 42px;
+        height: 42px;
+    }
+
+    .logo-text {
+        font-size: 1.4rem;
+        letter-spacing: 1px;
     }
 }
