@@ -553,6 +553,8 @@ footer {
     font-size: 2rem;
     color: #dc143c;
     cursor: pointer;
+    z-index: 2001;
+    position: relative;
 }
 @media (max-width: 480px) {
     .hero h1 {
