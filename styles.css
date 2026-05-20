@@ -554,7 +554,20 @@ footer {
     color: #dc143c;
     cursor: pointer;
 }
+@media (max-width: 480px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
 
+    .logo {
+        font-size: 1.5rem;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+}
 @media (max-width: 768px) {
     body {
         overflow-x: hidden;
