@@ -7,8 +7,8 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #ffffff;
-    color: #2a2a2a;
+    background-color: #1a1a1a;
+    color: #e0e0e0;
     line-height: 1.6;
     overflow-x: hidden;
 }
@@ -21,14 +21,14 @@ body {
 
 /* Header and Navigation */
 header {
-    background-color: #ffffff;
+    background-color: #111111;
     padding: 1rem 0;
     position: fixed;
     width: 100%;
     top: 0;
     z-index: 1000;
     border-bottom: 3px solid #dc143c;
-    box-shadow: 0 2px 15px rgba(220, 20, 60, 0.2);
+    box-shadow: 0 2px 15px rgba(220, 20, 60, 0.3);
 }
 
 nav {
@@ -71,7 +71,7 @@ nav {
 }
 
 .nav-links a {
-    color: #2a2a2a;
+    color: #cccccc;
     text-decoration: none;
     font-weight: 500;
     transition: color 0.3s ease;
@@ -99,7 +99,7 @@ nav {
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(135deg, #ffffff 0%, #ffe5e5 50%, #ffffff 100%);
+    background: linear-gradient(135deg, #111111 0%, #2a0a0f 50%, #111111 100%);
     height: 70vh;
     display: flex;
     align-items: center;
@@ -142,8 +142,8 @@ nav {
 .hero h1 {
     font-size: 4rem;
     margin-bottom: 1rem;
-    color: #1a1a1a;
-    text-shadow: 0 0 30px rgba(220, 20, 60, 0.4);
+    color: #f0f0f0;
+    text-shadow: 0 0 30px rgba(220, 20, 60, 0.5);
     letter-spacing: 2px;
 }
 
@@ -152,7 +152,7 @@ nav {
     color: #dc143c;
     margin-bottom: 2rem;
     font-weight: 400;
-    text-shadow: 0 0 15px rgba(220, 20, 60, 0.3);
+    text-shadow: 0 0 15px rgba(220, 20, 60, 0.4);
 }
 
 .cta-button {
@@ -165,20 +165,20 @@ nav {
     font-weight: bold;
     transition: all 0.3s ease;
     border: 2px solid #dc143c;
-    box-shadow: 0 0 25px rgba(220, 20, 60, 0.6);
+    box-shadow: 0 0 25px rgba(220, 20, 60, 0.5);
 }
 
 .cta-button:hover {
     background-color: #b01030;
     border-color: #b01030;
-    box-shadow: 0 0 35px rgba(220, 20, 60, 0.8);
+    box-shadow: 0 0 35px rgba(220, 20, 60, 0.7);
     transform: translateY(-2px);
 }
 
 /* About Section */
 .about {
     padding: 100px 0;
-    background-color: #f8f8f8;
+    background-color: #141414;
 }
 
 .about h2 {
@@ -196,12 +196,12 @@ nav {
 }
 
 .definition-card {
-    background: #ffffff;
+    background: #1e1e1e;
     padding: 2rem;
     border-radius: 15px;
-    border: 2px solid #ffe5e5;
+    border: 2px solid #2e2e2e;
     transition: all 0.3s ease;
-    box-shadow: 0 4px 15px rgba(220, 20, 60, 0.1);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
 }
 
 .definition-card:hover {
@@ -218,14 +218,14 @@ nav {
 }
 
 .definition-card p {
-    color: #4a4a4a;
+    color: #b0b0b0;
     line-height: 1.8;
 }
 
 /* Importance Section */
 .importance {
     padding: 100px 0;
-    background-color: #ffffff;
+    background-color: #1a1a1a;
 }
 
 .importance h2 {
@@ -243,11 +243,11 @@ nav {
 }
 
 .importance-item {
-    background: linear-gradient(145deg, #ffffff, #fff5f5);
+    background: #1e1e1e;
     padding: 2rem;
     border-radius: 15px;
     text-align: center;
-    border: 2px solid #ffe5e5;
+    border: 2px solid #2e2e2e;
     transition: all 0.3s ease;
 }
 
@@ -271,14 +271,14 @@ nav {
 }
 
 .importance-item p {
-    color: #5a5a5a;
+    color: #a0a0a0;
     line-height: 1.7;
 }
 
 /* Analysts Section */
 .analysts {
     padding: 100px 0;
-    background-color: #f8f8f8;
+    background-color: #141414;
 }
 
 .analysts h2 {
@@ -296,10 +296,10 @@ nav {
 }
 
 .analyst-card {
-    background: #ffffff;
+    background: #1e1e1e;
     padding: 2rem;
     border-radius: 15px;
-    border: 2px solid #ffe5e5;
+    border: 2px solid #2e2e2e;
     transition: all 0.3s ease;
     text-align: center;
 }
@@ -315,13 +315,13 @@ nav {
     height: 150px;
     margin: 0 auto 1.5rem;
     border-radius: 50%;
-    background: linear-gradient(135deg, #dc143c, #ff6b6b);
+    background: linear-gradient(135deg, #dc143c, #8b0000);
     display: flex;
     align-items: center;
     justify-content: center;
     overflow: hidden;
     border: 3px solid #dc143c;
-    box-shadow: 0 0 25px rgba(220, 20, 60, 0.5);
+    box-shadow: 0 0 25px rgba(220, 20, 60, 0.4);
 }
 
 .analyst-image img {
@@ -338,17 +338,17 @@ nav {
 }
 
 .analyst-description {
-    color: #4a4a4a;
+    color: #b0b0b0;
     margin-bottom: 1.5rem;
     line-height: 1.7;
 }
 
 .suited-jobs {
-    background-color: #fff5f5;
+    background-color: #141414;
     padding: 1rem;
     border-radius: 10px;
     border: 2px solid #dc143c;
-    box-shadow: 0 0 15px rgba(220, 20, 60, 0.1);
+    box-shadow: 0 0 15px rgba(220, 20, 60, 0.15);
 }
 
 .suited-jobs h4 {
@@ -360,12 +360,12 @@ nav {
 
 .suited-jobs ul {
     list-style: none;
-    color: #5a5a5a;
+    color: #a0a0a0;
 }
 
 .suited-jobs li {
     padding: 0.3rem 0;
-    border-bottom: 1px solid #ffe5e5;
+    border-bottom: 1px solid #2e2e2e;
 }
 
 .suited-jobs li:last-child {
@@ -375,7 +375,7 @@ nav {
 /* Careers Section */
 .careers {
     padding: 100px 0;
-    background-color: #ffffff;
+    background-color: #1a1a1a;
 }
 
 .careers h2 {
@@ -389,7 +389,7 @@ nav {
 .section-intro {
     text-align: center;
     font-size: 1.2rem;
-    color: #5a5a5a;
+    color: #808080;
     margin-bottom: 3rem;
 }
 
@@ -400,10 +400,10 @@ nav {
 }
 
 .career-card {
-    background: linear-gradient(145deg, #ffffff, #fff5f5);
+    background: #1e1e1e;
     padding: 2rem;
     border-radius: 15px;
-    border: 2px solid #ffe5e5;
+    border: 2px solid #2e2e2e;
     transition: all 0.3s ease;
 }
 
@@ -421,21 +421,21 @@ nav {
 }
 
 .aka {
-    color: #b01030;
+    color: #ff4d6d;
     font-weight: bold;
     font-size: 1.1rem;
     margin-bottom: 1rem;
 }
 
 .career-card p:last-child {
-    color: #5a5a5a;
+    color: #a0a0a0;
     line-height: 1.7;
 }
 
 /* Showcase Section */
 .showcase {
     padding: 100px 0;
-    background-color: #f8f8f8;
+    background-color: #141414;
 }
 
 .showcase h2 {
@@ -458,7 +458,7 @@ nav {
     height: 300px;
     border-radius: 15px;
     overflow: hidden;
-    border: 3px solid #ffe5e5;
+    border: 3px solid #2e2e2e;
     transition: all 0.3s ease;
     cursor: pointer;
 }
@@ -485,7 +485,7 @@ nav {
     bottom: 0;
     left: 0;
     right: 0;
-    background: linear-gradient(to top, rgba(220, 20, 60, 0.95), transparent);
+    background: linear-gradient(to top, rgba(180, 10, 40, 0.95), transparent);
     padding: 2rem;
     transform: translateY(70%);
     transition: transform 0.3s ease;
@@ -499,17 +499,17 @@ nav {
     color: #ffffff;
     font-size: 1.5rem;
     margin-bottom: 0.5rem;
-    text-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+    text-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
 }
 
 .showcase-overlay p {
-    color: #ffffff;
+    color: #f0f0f0;
     line-height: 1.6;
 }
 
 /* Footer */
 footer {
-    background-color: #1a1a1a;
+    background-color: #0d0d0d;
     padding: 3rem 0 1rem;
     border-top: 3px solid #dc143c;
 }
@@ -529,7 +529,7 @@ footer {
 }
 
 .footer-section p {
-    color: #b0b0b0;
+    color: #808080;
     line-height: 1.7;
     margin-bottom: 0.5rem;
 }
@@ -543,7 +543,7 @@ footer {
 }
 
 .footer-section ul li a {
-    color: #b0b0b0;
+    color: #808080;
     text-decoration: none;
     transition: color 0.3s ease;
 }
@@ -555,9 +555,10 @@ footer {
 .footer-bottom {
     text-align: center;
     padding-top: 2rem;
-    border-top: 1px solid #333;
-    color: #808080;
+    border-top: 1px solid #2e2e2e;
+    color: #555555;
 }
+
 .menu-toggle {
     display: none;
     font-size: 2rem;
@@ -566,6 +567,7 @@ footer {
     z-index: 2001;
     position: relative;
 }
+
 @media (max-width: 480px) {
     .hero h1 {
         font-size: 2rem;
@@ -580,6 +582,7 @@ footer {
         gap: 0.5rem;
     }
 }
+
 @media (max-width: 768px) {
     body {
         overflow-x: hidden;
@@ -656,7 +659,7 @@ footer {
         position: absolute;
         top: 70px;
         right: 10px;
-        background: #fff;
+        background: #1a1a1a;
         flex-direction: column;
         width: 170px;
         padding: 0.8rem;
@@ -674,6 +677,7 @@ footer {
     .menu-toggle {
         display: block;
     }
+
     header {
         padding: 0.7rem 0;
     }
@@ -686,5 +690,91 @@ footer {
     .logo-text {
         font-size: 1.4rem;
         letter-spacing: 1px;
+    }
+}
+
+/* ==========================
+   MERIT SYSTEM PAGE
+========================== */
+
+.section {
+    background: #1e1e1e;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 15px;
+    border: 2px solid #2e2e2e;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.section h2 {
+    color: #dc143c;
+    margin-bottom: 1rem;
+}
+
+.section h3 {
+    color: #ff4d6d;
+    margin: 1rem 0;
+}
+
+.section p,
+.section li {
+    color: #b0b0b0;
+    line-height: 1.8;
+}
+
+.section ul,
+.section ol {
+    padding-left: 20px;
+}
+
+.highlight {
+    color: #dc143c;
+    font-weight: bold;
+}
+
+.back-btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 12px 30px;
+    background: #dc143c;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: all .3s ease;
+}
+
+.back-btn:hover {
+    background: #b01030;
+    transform: translateY(-2px);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+table th {
+    background: #dc143c;
+    color: white;
+    padding: 12px;
+    text-align: left;
+}
+
+table td {
+    border: 1px solid #2e2e2e;
+    padding: 12px;
+    color: #b0b0b0;
+}
+
+table tr:nth-child(even) {
+    background: #161616;
+}
+
+@media (max-width:768px) {
+    table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
     }
 }
